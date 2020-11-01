@@ -1,0 +1,76 @@
+body {
+    background-color: #86c0f7;
+    color: white;
+}
+
+header, main, nav, footer {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+nav a:hover {
+    border-bottom: 2px #e3ae0e solid;
+    font-size: 2em;
+    transition: .9s;
+}
+
+nav a {
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: #224680;
+    font-weight: bold;
+}
+
+footer {
+    font-size: 12px;
+}
+
+p {
+    text-align: center;
+}
+
+table {
+    margin: 0px auto;
+}
+
+td {
+    padding-right: 10px;
+    padding-left: 7px;
+    font-size: 1.3em;
+}
+
+td strong {
+    color: #e3ae0e;
+}
+
+.hobby {
+    color: #224680;
+    font-weight: bold;
+}
+
+#table-header {
+    background-color: #224680;
+}
+
+.table-row {
+    background-color: #3e7ee6;
+}
+
+ul {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
